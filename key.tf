@@ -1,6 +1,6 @@
 resource "aws_key_pair" "rr-tf" {
   key_name   = "key-tf"
-  public_key = file("~/.ssh/id_rsa.pub")
+  public_key = file("C:/path/to/id_rsa.pub")
 }
 
 resource "tls_private_key" "rr" {
